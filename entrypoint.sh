@@ -34,4 +34,5 @@ rm $log_file
 
 echo $status_message
 echo ''
+echo $status_message >> /github/home/data.txt 
 exit $status_code
